@@ -2,7 +2,7 @@
     background-image: url(./Img/Fondo.jpg);
     font-family: 'Phudu', cursive;
     color: #eeeeee;
-    text-align: center;
+    text-align: center;    
 }
 .body {
     background-color: #eeeeee;
@@ -24,4 +24,7 @@
 }
 #items {
     color: black;
+}
+.circular-square {
+    border-radius: 50%;
 }
