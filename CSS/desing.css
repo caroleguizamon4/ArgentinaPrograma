@@ -1,13 +1,27 @@
 .container-fluid {
     background-image: url(./Img/Fondo.jpg);
+    font-family: 'Phudu', cursive;
+    color: #eeeeee;
+    text-align: center;
 }
 .body {
     background-color: #eeeeee;
 }
 .row{
-    background-color: #eeeeee;
+    background-color: #9fc5e8;
+    font-family: 'Tilt Neon', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+    
 }
       
 #piedepagina {
     background-image: url(./Img/Fondo.jpg);
+    color: #eeeeee;
+}
+#nav427 {
+    color: #eeeeee
+}
+#items {
+    color: black;
 }
