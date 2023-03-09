@@ -8,7 +8,7 @@
     <meta property="og:title" content="Proyecto Argentina Programa" />
     <meta property="og:type" content="curriculum" />
     <meta property="og:url" content="https://caroleguizamon4.github.io/ArgentinaPrograma/" />
-    <link rel="stylesheet" href="./CSS/desing.css">
+    <link rel="stylesheet" href="./CSS/desing.css">    
     <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
@@ -25,11 +25,12 @@
                 <a class="navbar-brand" href="#" id="nav427">
                 <img src="./Favicon/android-chrome-192x192.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Curriculum Vitae</a>
+                      
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="nav nav-tabs">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="nav nav-tabs">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html" id="items">Datos personales</a>
                          </li>
@@ -45,6 +46,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./habilidadeseidiomas.html" id="items">Habilidades e idiomas</a>
                         </li>
+                        <li class="nav-item">                             
+                            <a class="btn btn-success" id="boton"> Contactame</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -53,32 +57,35 @@
     <div class="container-fluid">
         <h1>Curriculum Vitae Eva Shaw</h1>   
         <img class="circular-square" src="./Img/Foto de perfil.jpg" alt="Foto de perfil de Eva Shaw">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>
+        <i title="Modo nocturno activo" id="modoVis" class="fa-solid fa-moon"></i>                  
+        </div>         
     </div>
     <br>
-    <div class="container-fluid">
+    <div class="container-fluid rounded">
          <h2>Datos Personales</h2>
     </div>
-    <div class="row">
-        <div class="col-3 p-3 mb-2">
-            <div class="container-fluid">
+    <div class="row" id="datos">
+        <div class="col-5">
+            <div class="container-fluid rounded">
                 <h4>Teléfono</h4>
             </div>
             <p>(647) 840-7427</p>
-            <div class="container-fluid">
+            <div class="container-fluid rounded">
                 <h4>Mail</h4>
             </div>
-            <p>evashaw@example.com</p>
-            <div class="container-fluid">
+            <p>eshaw@mail.com</p>
+            <div class="container-fluid rounded">
                 <h4>Fecha de nacimiento</h4>
             </div>
             <p>19/05/1997</p>
-            <div class="container-fluid">
+            <div class="container-fluid rounded">
                 <h4>Dirección</h4>
             </div>
             <p>549 Bollinger Rd</p>
         </div>        
-        <div class="col-sm-9 p-3">
-            <div class="container-fluid">
+        <div class="col-7">
+            <div class="container-fluid rounded rounded">
             <h3>Perfil Profesional</h3>
             </div>
             <p>Técnico en informática con más de 5 años de experiencia en industrias de tecnología. Especializado en brindar apoyo y asesoría técnica a empresas con más de 500 empleados y en mantener un índice de satisfacción del usuario de 9,5. Busco brindar la misma calidad de atención y optimizar el rendimiento de los sistemas informáticos de Land Lord Technologies. </p>
@@ -99,4 +106,6 @@
         </div>
     </div>   
 </footer>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/fb219c69e3.js" crossorigin="anonymous"></script>
 </html>
