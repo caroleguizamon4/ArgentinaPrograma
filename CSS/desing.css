@@ -1,26 +1,37 @@
-.container-fluid {
-    background-image: url(./Img/Fondo.jpg);
+:root {  background-image: url(./Img/Fondo.jpg);
     font-family: 'Phudu', cursive;
-    color: #eeeeee;
-    text-align: center;    
+    text-align: center; 
+    --colortexto: #eeeeee;
+    color: var(--colortexto);
+    --colorfondobody: #eeeeee;
+    --colorrow: #9fc5e8;
+    --imagenfondo: url(./Img/Fondo.jpg);
 }
+
+.container-fluid {
+    background-image: var(--imagenfondo);
+    font-family: 'Phudu', cursive;     
+    color: var(--colortexto); 
+}
+
 .body {
-    background-color: #eeeeee;
+    background-color: var(--colorfondobody);    
 }
 .row{
-    background-color: #9fc5e8;
+    background-color:var(--colorrow);
     font-family: 'Tilt Neon', cursive;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.1rem; 
+    color: var(--colortexto);   
     
 }
       
 #piedepagina {
-    background-image: url(./Img/Fondo.jpg);
-    color: #eeeeee;
+    background-image: var(--imagenfondo);
+    color: var(--colortexto);
 }
 #nav427 {
-    color: #eeeeee
+    color: var(--colortexto);
 }
 #items {
     color: black;
